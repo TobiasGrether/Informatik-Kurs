@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ModellMITUMLDiagrammen Modellversion="2.1">
+<Modell>
+<Methode Bezeichner="bestaunen" ElementID="41" KlassenID="9" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="auto" nr="0">
+<Datentyp GrundtypKlasseID="8" feldDimension="0" istFeld="false" primitiverGrundTyp=""/>
+</Parameter>
+<Quelltext/>
+</Methode>
+<Methode Bezeichner="setzeTermin" ElementID="40" KlassenID="28" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt termin 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pTermin" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="1" istFeld="true" primitiverGrundTyp="int"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.termin = pTermin;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibTermin" ElementID="39" KlassenID="28" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert termin 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="1" istFeld="true" primitiverGrundTyp="int"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.termin;</Quelltext>
+</Methode>
+<Attribut Bezeichner="termin" ElementID="38" KlassenID="28" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="1" istFeld="true" primitiverGrundTyp="int"/>
+</Attribut>
+<Methode Bezeichner="setzeBesucher" ElementID="37" KlassenID="28" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt besucher 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pBesucher" nr="0">
+<Datentyp GrundtypKlasseID="4" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.besucher = pBesucher;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibBesucher" ElementID="36" KlassenID="28" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert besucher 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="4" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.besucher;</Quelltext>
+</Methode>
+<Attribut Bezeichner="besucher" ElementID="35" KlassenID="28" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="4" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+</Attribut>
+<Methode Bezeichner="setzeEintrittspreis" ElementID="34" KlassenID="28" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt eintrittspreis 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pEintrittspreis" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="float"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.eintrittspreis = pEintrittspreis;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibEintrittspreis" ElementID="33" KlassenID="28" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert eintrittspreis 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="float"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.eintrittspreis;</Quelltext>
+</Methode>
+<Attribut Bezeichner="eintrittspreis" ElementID="32" KlassenID="28" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="float"/>
+</Attribut>
+<Methode Bezeichner="setzeAutos" ElementID="31" KlassenID="28" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Autos 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pAutos" nr="0">
+<Datentyp GrundtypKlasseID="8" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Autos = pAutos;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibAutos" ElementID="30" KlassenID="28" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Autos 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="8" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Autos;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Autos" ElementID="29" KlassenID="28" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="8" feldDimension="1" istFeld="true" primitiverGrundTyp=""/>
+</Attribut>
+<Klasse Bezeichner="Ausstellung" ElementID="28" Modifier="1" OberklasseID="3" PaketID="0" istExtern="false">
+<Kommentar/>
+<Attribute AttributID="32"/>
+<Attribute AttributID="35"/>
+<Attribute AttributID="38"/>
+<Attribute AttributID="29"/>
+<Methoden MethodenID="33"/>
+<Methoden MethodenID="34"/>
+<Methoden MethodenID="36"/>
+<Methoden MethodenID="37"/>
+<Methoden MethodenID="39"/>
+<Methoden MethodenID="40"/>
+<Methoden MethodenID="30"/>
+<Methoden MethodenID="31"/>
+</Klasse>
+<Methode Bezeichner="setzePreis" ElementID="27" KlassenID="8" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Preis 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pPreis" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Preis = pPreis;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibPreis" ElementID="26" KlassenID="8" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Preis 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Preis;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Preis" ElementID="25" KlassenID="8" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+</Attribut>
+<Methode Bezeichner="setzeHersteller" ElementID="24" KlassenID="8" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Hersteller 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pHersteller" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Hersteller = pHersteller;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibHersteller" ElementID="23" KlassenID="8" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Hersteller 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Hersteller;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Hersteller" ElementID="22" KlassenID="8" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Attribut>
+<Methode Bezeichner="setzeModellname" ElementID="21" KlassenID="8" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Modellname 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pModellname" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Modellname = pModellname;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibModellname" ElementID="20" KlassenID="8" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Modellname 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Modellname;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Modellname" ElementID="19" KlassenID="8" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Attribut>
+<Methode Bezeichner="setzeModell" ElementID="17" KlassenID="8" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Modell 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pModell" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Modell = pModell;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibModell" ElementID="16" KlassenID="8" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Modell 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Modell;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Modell" ElementID="15" KlassenID="8" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Attribut>
+<Methode Bezeichner="setzeAlter" ElementID="14" KlassenID="4" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Alter 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pAlter" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Alter = pAlter;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibAlter" ElementID="13" KlassenID="4" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Alter 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Alter;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Alter" ElementID="12" KlassenID="4" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="int"/>
+</Attribut>
+<Klasse Bezeichner="Journalisten" ElementID="11" Modifier="1" OberklasseID="4" PaketID="0" istExtern="false">
+<Kommentar/>
+</Klasse>
+<Klasse Bezeichner="Fachbesucher" ElementID="10" Modifier="1" OberklasseID="4" PaketID="0" istExtern="false">
+<Kommentar/>
+</Klasse>
+<Klasse Bezeichner="Autobegeisterte" ElementID="9" Modifier="1" OberklasseID="4" PaketID="0" istExtern="false">
+<Kommentar/>
+<Methoden MethodenID="41"/>
+</Klasse>
+<Klasse Bezeichner="Auto" ElementID="8" Modifier="1" OberklasseID="3" PaketID="0" istExtern="false">
+<Kommentar/>
+<Attribute AttributID="19"/>
+<Attribute AttributID="22"/>
+<Attribute AttributID="25"/>
+<Attribute AttributID="15"/>
+<Methoden MethodenID="16"/>
+<Methoden MethodenID="17"/>
+<Methoden MethodenID="20"/>
+<Methoden MethodenID="21"/>
+<Methoden MethodenID="23"/>
+<Methoden MethodenID="24"/>
+<Methoden MethodenID="26"/>
+<Methoden MethodenID="27"/>
+</Klasse>
+<Methode Bezeichner="setzeName" ElementID="7" KlassenID="4" Modifier="1" Parameteranzahl="1" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** setzt Name 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="void"/>
+<Parameter Bezeichner="pName" nr="0">
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Parameter>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    this.Name = pName;</Quelltext>
+</Methode>
+<Methode Bezeichner="gibName" ElementID="6" KlassenID="4" Modifier="1" Parameteranzahl="0" istDarstellungFuerEntwurf="false" istKonstruktor="false">
+<Kommentar>/** @return liefert Name 
+*/</Kommentar>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+<Quelltext>//TODO gegebenenfalls ueberarbeiten
+    return this.Name;</Quelltext>
+</Methode>
+<Attribut Bezeichner="Name" ElementID="5" KlassenID="4" Modifier="2" Startwert="" istDarstellungFuerEntwurf="false" multmax="1" multmin="1">
+<Kommentar/>
+<Datentyp GrundtypKlasseID="-1" feldDimension="0" istFeld="false" primitiverGrundTyp="String"/>
+</Attribut>
+<Klasse Bezeichner="Zuschauer" ElementID="4" Modifier="1025" OberklasseID="3" PaketID="0" istExtern="false">
+<Kommentar/>
+<Attribute AttributID="5"/>
+<Attribute AttributID="12"/>
+<Methoden MethodenID="6"/>
+<Methoden MethodenID="7"/>
+<Methoden MethodenID="13"/>
+<Methoden MethodenID="14"/>
+</Klasse>
+<Klasse Bezeichner="Object" ElementID="3" Modifier="1" OberklasseID="-1" PaketID="2" istExtern="true">
+<Kommentar/>
+</Klasse>
+<Paket BezeichnerKurzname="lang" ElementID="2" UebergeordnetesPaketID="1">
+<Kommentar/>
+<Klassen KlassenID="3"/>
+</Paket>
+<Paket BezeichnerKurzname="java" ElementID="1" UebergeordnetesPaketID="0">
+<Kommentar/>
+</Paket>
+<Paket BezeichnerKurzname="" ElementID="0" UebergeordnetesPaketID="-1">
+<Kommentar/>
+<Klassen KlassenID="4"/>
+<Klassen KlassenID="8"/>
+<Klassen KlassenID="9"/>
+<Klassen KlassenID="10"/>
+<Klassen KlassenID="11"/>
+<Klassen KlassenID="28"/>
+</Paket>
+</Modell>
+<ModellAnzeigeInfo>
+<KlassenanzeigeEinstellungenData Bemerkung="GlobaleVorgaben" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="Helvetica" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</ModellAnzeigeInfo>
+<PackageViewerInfo Beschreibung="" IstEntwurfsdiagramm="false" Packagename="" PaketID="0" ViewID="0">
+<Rectangle Kommentar="PackageviewerRechteck" height="933" width="624" x="0" y="0"/>
+<KlassenanzeigeInfoArrayList ListeFuer="KlassenanzeigenInfo" Listenlaenge="6">
+<KlassenanzeigeInfo KlassenID="4" ViewID="2">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="179" width="191" x="40" y="500"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="2">
+<Feldelement Index="0" Wert="5"/>
+<Feldelement Index="1" Wert="12"/>
+</INTFeld>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="4">
+<Feldelement Index="0" Wert="6"/>
+<Feldelement Index="1" Wert="7"/>
+<Feldelement Index="2" Wert="13"/>
+<Feldelement Index="3" Wert="14"/>
+</INTFeld>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+<KlassenanzeigeInfo KlassenID="8" ViewID="3">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="283" width="259" x="30" y="120"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="4">
+<Feldelement Index="0" Wert="15"/>
+<Feldelement Index="1" Wert="19"/>
+<Feldelement Index="2" Wert="22"/>
+<Feldelement Index="3" Wert="25"/>
+</INTFeld>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="8">
+<Feldelement Index="0" Wert="16"/>
+<Feldelement Index="1" Wert="17"/>
+<Feldelement Index="2" Wert="20"/>
+<Feldelement Index="3" Wert="21"/>
+<Feldelement Index="4" Wert="23"/>
+<Feldelement Index="5" Wert="24"/>
+<Feldelement Index="6" Wert="26"/>
+<Feldelement Index="7" Wert="27"/>
+</INTFeld>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+<KlassenanzeigeInfo KlassenID="9" ViewID="4">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="64" width="162" x="20" y="700"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="0"/>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="1">
+<Feldelement Index="0" Wert="41"/>
+</INTFeld>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+<KlassenanzeigeInfo KlassenID="10" ViewID="5">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="45" width="103" x="130" y="460"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="0"/>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="0"/>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+<KlassenanzeigeInfo KlassenID="11" ViewID="6">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="45" width="94" x="30" y="460"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="0"/>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="0"/>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+<KlassenanzeigeInfo KlassenID="28" ViewID="8">
+<KlassenanzeigeEinstellungen darstellungsgroesse="2" entwurfsdiagrammDarstellung="false">
+<KlassenanzeigeEinstellungenData Bemerkung="lokaleEinstellungen" abstrakteMethodenKursiv="true" alleAttributeAnzeigen="true" auftraegeUndAnfragenDurchSymbole="false" datenTypenMitPaketnamen="false" finalAnzeigen="true" fontStil="0" fontgroesse="12" istEntwurfsDiagramm="false" konstruktorDurchC="false" konstruktorenAnzeigen="true" multiplizitaetenAnzeigen="false" nameStandardfont="SansSerif" packageMethodenAnzeigen="true" paketnamenAnKlassenNamen="false" parameterAnzeigen="true" parameterNamenAnzeigen="true" privateMethodenAnzeigen="true" protectedMethodenAnzeigen="true" publicMethodenAnzeigen="true" rueckgabetypAnzeigen="true" sichtbarkeitImEntwurfsdiagrammZeigen="false" staticAnzeigen="true" symboleFuerSichtbarkeit="true" umlNotation="true"/>
+</KlassenanzeigeEinstellungen>
+<Rectangle Kommentar="KlassenanzeigeRechteck" height="283" width="265" x="300" y="120"/>
+<INTFeld Feldfuer="AttributeID" Feldlaenge="4">
+<Feldelement Index="0" Wert="29"/>
+<Feldelement Index="1" Wert="32"/>
+<Feldelement Index="2" Wert="35"/>
+<Feldelement Index="3" Wert="38"/>
+</INTFeld>
+<INTFeld Feldfuer="MethodenID" Feldlaenge="8">
+<Feldelement Index="0" Wert="30"/>
+<Feldelement Index="1" Wert="31"/>
+<Feldelement Index="2" Wert="33"/>
+<Feldelement Index="3" Wert="34"/>
+<Feldelement Index="4" Wert="36"/>
+<Feldelement Index="5" Wert="37"/>
+<Feldelement Index="6" Wert="39"/>
+<Feldelement Index="7" Wert="40"/>
+</INTFeld>
+<INTFeld Feldfuer="PfadInfoID" Feldlaenge="0"/>
+<INTFeld2D Feldfuer="Besetzt" FeldlaengeX="4" FeldlaengeY="11">
+<Feldelement Wert="0" x="0" y="0"/>
+<Feldelement Wert="0" x="0" y="1"/>
+<Feldelement Wert="0" x="0" y="2"/>
+<Feldelement Wert="0" x="0" y="3"/>
+<Feldelement Wert="0" x="0" y="4"/>
+<Feldelement Wert="0" x="0" y="5"/>
+<Feldelement Wert="0" x="0" y="6"/>
+<Feldelement Wert="0" x="0" y="7"/>
+<Feldelement Wert="0" x="0" y="8"/>
+<Feldelement Wert="0" x="0" y="9"/>
+<Feldelement Wert="0" x="0" y="10"/>
+<Feldelement Wert="0" x="1" y="0"/>
+<Feldelement Wert="0" x="1" y="1"/>
+<Feldelement Wert="0" x="1" y="2"/>
+<Feldelement Wert="0" x="1" y="3"/>
+<Feldelement Wert="0" x="1" y="4"/>
+<Feldelement Wert="0" x="1" y="5"/>
+<Feldelement Wert="0" x="1" y="6"/>
+<Feldelement Wert="0" x="1" y="7"/>
+<Feldelement Wert="0" x="1" y="8"/>
+<Feldelement Wert="0" x="1" y="9"/>
+<Feldelement Wert="0" x="1" y="10"/>
+<Feldelement Wert="0" x="2" y="0"/>
+<Feldelement Wert="0" x="2" y="1"/>
+<Feldelement Wert="0" x="2" y="2"/>
+<Feldelement Wert="0" x="2" y="3"/>
+<Feldelement Wert="0" x="2" y="4"/>
+<Feldelement Wert="0" x="2" y="5"/>
+<Feldelement Wert="0" x="2" y="6"/>
+<Feldelement Wert="0" x="2" y="7"/>
+<Feldelement Wert="0" x="2" y="8"/>
+<Feldelement Wert="0" x="2" y="9"/>
+<Feldelement Wert="0" x="2" y="10"/>
+<Feldelement Wert="0" x="3" y="0"/>
+<Feldelement Wert="0" x="3" y="1"/>
+<Feldelement Wert="0" x="3" y="2"/>
+<Feldelement Wert="0" x="3" y="3"/>
+<Feldelement Wert="0" x="3" y="4"/>
+<Feldelement Wert="0" x="3" y="5"/>
+<Feldelement Wert="0" x="3" y="6"/>
+<Feldelement Wert="0" x="3" y="7"/>
+<Feldelement Wert="0" x="3" y="8"/>
+<Feldelement Wert="0" x="3" y="9"/>
+<Feldelement Wert="0" x="3" y="10"/>
+</INTFeld2D>
+</KlassenanzeigeInfo>
+</KlassenanzeigeInfoArrayList>
+<PackagePanelInfoArrayList ListeFuer="PackagepanelInfo" Listenlaenge="0"/>
+<AssoziationsPfadInfoArrayList ListeFuer="AssoziationsPfadInfo" Listenlaenge="0"/>
+<VererbungsPfadInfoArrayList ListeFuer="VererbungsPfadInfo" Listenlaenge="0"/>
+<GenerischerTypPfadInfoArrayList ListeFuer="GenerischerTypPfadInfo" Listenlaenge="0"/>
+</PackageViewerInfo>
+</ModellMITUMLDiagrammen>
