@@ -13,4 +13,14 @@ class RadDesTheodorus{
         if(zahl == end) return hyp;
         return calc(((Math.sqrt(hyp) * Math.sqrt(hyp)) + 1), zahl+1);
     }
+    
+    /*
+    Pseudo-Code
+    funktion calc2
+        RÜCKGABE WURZEL AUS ( WURZEL AUS GRAD * WURZEL AUS GRAD ) + 1
+    ende
+     */
+    static double calc2(int grad){
+        return Math.sqrt((Math.sqrt(grad) * Math.sqrt(grad)) + 1);
+    }
 }
